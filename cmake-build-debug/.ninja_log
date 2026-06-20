@@ -1,0 +1,14 @@
+# ninja log v7
+1	822	1781928647751335854	CMakeFiles/yetanotherSLAM.dir/main.cpp.o	d782701adc4d518a
+2	42	1781934877579942716	yetanotherSLAM	4fcb4b4cc69852c2
+1	98	1781952383120908236	build.ninja	cf7457e349969858
+1	98	1781952383120116238	/Users/michelangelo/Coding/yetanotherSLAM/cmake-build-debug/cmake_install.cmake	cf7457e349969858
+4	390	1781934270951586641	CMakeFiles/yetanotherSLAM.dir/src/main.cpp.o	6e39e2d2393748ee
+4	369	1781934270951898184	CMakeFiles/yetanotherSLAM.dir/src/3d_rotation.cpp.o	22141f539e05026a
+3	273	1781936341401037021	CMakeFiles/rotation3d.dir/src/3d_rotation.cpp.o	f6160a86c1565dc3
+273	310	1781936341670648530	rotation3d	fc7f9f8bfee5e565
+5	884	1781950264003524405	CMakeFiles/rotation3d.dir/src/3d_rotation_with_eigen.cpp.o	ccaa1fc21d28969e
+4	884	1781951147027482944	CMakeFiles/rotation_eigen.dir/src/3d_rotation_with_eigen.cpp.o	67718ae967766275
+885	924	1781951147908179748	rotation_eigen	14348a437c11f6fb
+3	1168	1781952265918545410	CMakeFiles/camera_matrix.dir/src/camera_matrix.cpp.o	744f648c2b85d68f
+1168	1206	1781952267083833297	camera_matrix	51ac8c0c41e97c99
