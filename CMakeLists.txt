@@ -11,7 +11,6 @@ find_package(Eigen3 REQUIRED)
 add_executable(slam
         src/main.cpp
         src/dataset.cpp
-        src/main.cpp
         include/slam/main.h
 )
 
@@ -21,6 +20,21 @@ target_include_directories(slam PRIVATE
 )
 
 target_link_libraries(slam PRIVATE
+        ${OpenCV_LIBS}
+        Eigen3::Eigen
+)
+
+add_executable(orb_compare
+        include/slam/ORB_compare.cpp
+        include/slam/ORB_compare.h
+)
+
+target_include_directories(orb_compare PRIVATE
+        include
+        ${OpenCV_INCLUDE_DIRS}
+)
+
+target_link_libraries(orb_compare PRIVATE
         ${OpenCV_LIBS}
         Eigen3::Eigen
 )
